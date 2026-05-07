@@ -31,8 +31,21 @@ router.post('/', async (req, res) => {
     })
   }
 
+  // Add system prompt with lilbot identity
+  const systemMessage = {
+    role: 'system',
+    content:
+      "You are Lilbot, a helpful and friendly AI assistant. You are not Gemini, GPT, or any other model - you are Lilbot. Be conversational, helpful, and always maintain your identity as Lilbot. When asked who you are, always say you're Lilbot. Keep responses concise and friendly.",
+  }
+
+  // Prepend system message if not already present
+  const messagesWithSystem =
+    messages[0]?.role === 'system'
+      ? messages
+      : [systemMessage, ...messages]
+
   try {
-    const reply = await createChatCompletion(messages)
+    const reply = await createChatCompletion(messagesWithSystem)
     return res.json({ reply })
   } catch (error) {
     if (error.response?.status === 429) {
