@@ -309,4 +309,4 @@ For issues, questions, or suggestions:
 
 ---
 
-**Built with ❤️ by [Your Name/Organization]**
+**Built with ❤️ by Nouf**
