@@ -2,8 +2,6 @@
 
 A lightweight, full-stack AI chatbot with a modern dark UI, persistent memory, and Lilbot AI personality. Built with React, Node.js, and Google Gemini API.
 
-![Lilbot Chat Interface](<img width="1071" height="1023" alt="image" src="https://github.com/user-attachments/assets/2d8fb0ff-987a-4022-9d5b-202f5300279e" />
-)
 
 ## ✨ Features
 
@@ -19,6 +17,10 @@ A lightweight, full-stack AI chatbot with a modern dark UI, persistent memory, a
 - **Error Handling**: User-friendly error messages and recovery suggestions
 
 ## 📸 Screenshots
+
+<img width="1508" height="1113" alt="lilbot ai png" src="https://github.com/user-attachments/assets/9d9f9d11-2c8e-4010-9554-92e352276aa3" />
+<img width="1508" height="1113" alt="image" src="https://github.com/user-attachments/assets/29144d7a-6134-43aa-996b-76fe486a237f" />
+
 
 ### Main Chat Interface
 The chatbot features a clean, intuitive interface with:
