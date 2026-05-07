@@ -19,8 +19,7 @@ A lightweight, full-stack AI chatbot with a modern dark UI, persistent memory, a
 ## 📸 Screenshots
 
 <img width="1508" height="1113" alt="lilbot ai png" src="https://github.com/user-attachments/assets/9d9f9d11-2c8e-4010-9554-92e352276aa3" />
-<img width="1508" height="1113" alt="image" src="https://github.com/user-attachments/assets/29144d7a-6134-43aa-996b-76fe486a237f" />
-
+<img width="240" height="36" alt="image" src="https://github.com/user-attachments/assets/8adc4c33-0c71-4b00-bc11-da4581a1e285" />
 
 ### Main Chat Interface
 The chatbot features a clean, intuitive interface with:
