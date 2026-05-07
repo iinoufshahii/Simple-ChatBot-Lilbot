@@ -50,10 +50,10 @@ npm install
 3. Configure environment variables:
 
 ```bash
-cp /home/runner/work/Simple-ChatBot-Lilbot/Simple-ChatBot-Lilbot/.env.example /home/runner/work/Simple-ChatBot-Lilbot/Simple-ChatBot-Lilbot/backend/.env
+cp .env.example backend/.env
 ```
 
-Then update `OPENROUTER_API_KEY` in `/home/runner/work/Simple-ChatBot-Lilbot/Simple-ChatBot-Lilbot/backend/.env`.
+Then update `OPENROUTER_API_KEY` in `backend/.env`.
 
 ## Run
 
